@@ -13,7 +13,7 @@ stages{
         stage('Build'){
             
             steps {
-                sh './gradlew assembledebug'              
+                sh 'sudo ./gradlew assembledebug'              
             }
         }
 }
